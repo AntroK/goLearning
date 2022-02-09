@@ -7,6 +7,7 @@ import (
 
 // json
 type Movies struct {
+	// 变量名大写，   `json:"name"`  json符号写上
 	Name string		`json:"name"`
 	Date string		`json:"date"`
 }
