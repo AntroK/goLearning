@@ -2,6 +2,9 @@ package main
 
 import "fmt"
 
+// 实现1-> 2 -> 3
+// 	  2-> 3 -> 4
+// 相加3-> 5 -> 7
 // 指针要初始化！！！
 type Nd struct {
 	Value 	int
